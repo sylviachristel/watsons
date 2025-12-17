@@ -1,0 +1,61 @@
+/* Import Roboto Font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Rubik:wght@400;700&display=swap');
+
+/* Global Font Settings */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Base Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/* Input and Button Base Styles */
+input,
+button,
+textarea,
+select {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Common Color Variables */
+:root {
+    --primary-text: #2A2A48;
+    --secondary-text: #8493A8;
+    --primary-color: #0099A8;
+    --accent-color: #E91E63;
+    --border-color: rgba(132, 147, 168, 0.3);
+    --background-light: #F2F0FF;
+    --background-gray: #F5F5F5;
+}
+
+/* Utility Classes */
+.text-primary {
+    color: var(--primary-text);
+}
+
+.text-secondary {
+    color: var(--secondary-text);
+}
+
+.bg-light-purple {
+    background: var(--background-light);
+}
