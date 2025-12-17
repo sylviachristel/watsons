@@ -34,6 +34,9 @@
 
     <!-- Campaign Banner Section -->
     <CampaignBanner />
+
+    <!-- Featured Categories Section -->
+    <FeaturedCategories />
   </div>
 </template>
 

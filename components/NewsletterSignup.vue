@@ -97,7 +97,7 @@
 .subscribe-button {
   height: 48px;
   padding: 0 32px;
-  background: #FF27AD;
+  background: rgba(255, 39, 173, 1);
   border: none;
   border-radius: 4px;
   font-family: 'Roboto', sans-serif;
@@ -110,7 +110,7 @@
 }
 
 .subscribe-button:hover {
-  background: #DB1F94;
+  background: rgba(241, 18, 156, 1);
 }
 
 /* Mobile responsive */

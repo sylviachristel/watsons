@@ -245,7 +245,7 @@ const toggleMenu = () => {
 }
 
 .nav-menu-item:hover {
-  background: #ECECEC4D;
+  background: rgba(236, 236, 236, 0.3);
   color: #2A2A48;
   cursor: pointer;
 }

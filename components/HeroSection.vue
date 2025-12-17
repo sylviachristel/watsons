@@ -22,7 +22,7 @@
         <div class="relative w-full md:w-[540px] h-[300px] md:h-[400px] flex items-end justify-center md:block pointer-events-none mt-4 md:mt-0" style="transform: translateX(60px);">
              
              <!--  Background -->
-             <img src="~/assets/css/images/hero-leaves.png" class="absolute z-0 object-contain opacity-100" style="width: 334px; height: 314px; top: 20.5px; left: -96px;" />
+             <img src="~/assets/css/images/hero-leaves.png" class="absolute z-0 object-contain opacity-100" style="width: 334px; height: 314px; top: 15px; left: -96px;" />
              
              <!-- Circles -->
              <img src="~/assets/css/images/Ellipse60.png" class="absolute z-0 object-contain opacity-100" style="width: 326.75px; height: 325.35px; top: 20.65px; left: 160px;" />

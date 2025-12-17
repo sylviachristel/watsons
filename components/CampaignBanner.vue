@@ -3,7 +3,7 @@
     <div class="container mx-auto px-4 h-full relative">
       <div class="banner-content h-full">
         <div class="center-container">
-          <!-- Left Products (pngwing 1) -->
+          <!-- Left Products (nivea left ) -->
           <div class="products-left">
             <img src="/images/nivea-products-left.png" alt="NIVEA Products" />
           </div>
@@ -30,7 +30,7 @@
             </button>
           </div>
 
-          <!-- Right Products (nivea 1) -->
+          <!-- Right Products (nivea right) -->
           <div class="products-right">
             <img src="/images/nivea-products-right.png" alt="NIVEA Products" />
           </div>
@@ -184,7 +184,7 @@
   gap: 8px;
   min-width: clamp(80px, 7.3vw, 105px);
   height: clamp(28px, 2.2vw, 32px);
-  background: #138A96; 
+  background: rgba(255, 39, 173, 1); 
   border-radius: 4px;
   flex: none;
   order: 2;
@@ -195,7 +195,7 @@
 }
 
 .shop-button:hover {
-  background: #0f6c75;
+  background: rgba(241, 18, 156, 1);
 }
 
 .button-wrapper {

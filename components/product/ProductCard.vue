@@ -8,7 +8,7 @@
       />
       <!-- Hover Overlay -->
       <div class="product-overlay">
-        <button class="overlay-btn">
+        <button class="overlay-btn overlay-btn-quick-view">
           <img src="~/assets/css/icon/quick-view-hover.png" alt="" style="width: 16px; height: 16px; object-fit: contain;" />
           Quick View
         </button>
@@ -16,7 +16,7 @@
         <!-- Custom Divider -->
         <div class="divider"></div>
 
-        <button class="overlay-btn">
+        <button class="overlay-btn overlay-btn-add">
           <img src="~/assets/css/icon/add-hover.png" alt="" style="width: 16px; height: 16px; object-fit: contain;" />
           Add
         </button>
@@ -45,24 +45,20 @@ defineProps({
   flex-direction: column;
   padding: 16px;
   gap: 12px;
-  background: #FFFFFF;
-  border: 1px solid #ECECEC80;
-  box-shadow: 0px 1px 8px 0px #0000000A;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(236, 236, 236, 0.5);
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.04);
   border-radius: 6px;
   transition: all 0.2s ease;
   position: relative;
   overflow: hidden;
   height: 328px;
+  width: 260px;
 }
 
 .product-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border-color: transparent; 
-}
-
-.product-card:hover .product-image-container {
-  border: 1px solid #7C3AED;
-  box-shadow: 0 0 0 1px #7C3AED; 
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.04), 0px 24px 24px 0px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(236, 236, 236, 0.5);
 }
 
 .product-image-container {
@@ -133,8 +129,16 @@ defineProps({
 .divider {
   width: 0.5px;
   height: 32px;
-  background-color: #ECECEC;
+  background-color: rgba(236, 236, 236, 0.23);
   opacity: 0.2;
+}
+
+.overlay-btn-quick-view {
+  flex: 1.5;
+}
+
+.overlay-btn-add {
+  flex: 1.0;
 }
 
 
