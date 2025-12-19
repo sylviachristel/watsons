@@ -28,8 +28,8 @@
 
         <!-- Contact Info (Right Aligned) -->
         <div class="ml-auto flex items-center space-x-2">
-           <span style="font-family: 'Roboto'; font-weight: 500; font-size: 14px; line-height: 24px; letter-spacing: 0px; text-align: center; vertical-align: middle; color: #FFFFFF;">Call us:(+90) 850 123 45 67</span>
-           <div class="icon-wrapper header-phone-icon" style="width: 18px; height: 14px;">
+           <span style="width: 173px; height: 24px; font-family: 'Roboto'; font-weight: 500; font-size: 14px; line-height: 24px; letter-spacing: 0px; text-align: center; vertical-align: middle; color: #FFFFFF;">Call us:(+90) 850 123 45 67</span>
+           <div class="icon-wrapper header-phone-icon" style="width: 18px; height: 14px; margin-right: 185px;">
                <img src="~/assets/css/icon/phone-icon.png" alt="Phone" class="w-full h-full object-contain" />
            </div>
         </div>
