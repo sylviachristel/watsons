@@ -184,7 +184,7 @@
   gap: 8px;
   min-width: clamp(80px, 7.3vw, 105px);
   height: clamp(28px, 2.2vw, 32px);
-  background: rgba(255, 39, 173, 1); 
+  background: #0099A8; 
   border-radius: 4px;
   flex: none;
   order: 2;
@@ -195,7 +195,7 @@
 }
 
 .shop-button:hover {
-  background: rgba(241, 18, 156, 1);
+  background: #138A96;
 }
 
 .button-wrapper {

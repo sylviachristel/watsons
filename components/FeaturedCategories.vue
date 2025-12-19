@@ -15,7 +15,7 @@
         <!-- Row 1 -->
         <div class="flex" style="gap: 40px; height: 280px;">
           <!-- Personal Care -->
-          <div class="category-card relative overflow-hidden" style="width: 360px; height: 280px; border-radius: 6px; border: 1px solid #ECECEC80; box-shadow: 0px 1px 8px 0px #0000000A, 0px 24px 24px 0px #0000000F, 0px -6px 30px 0px #0000000F;">
+          <div class="category-card relative overflow-hidden" style="width: 360px; height: 280px; border-radius: 6px;">
             <img 
               src="/images/personal-care.jpg" 
               alt="Personal Care" 
@@ -35,7 +35,7 @@
           </div>
 
           <!-- Skin Care -->
-          <div class="category-card relative overflow-hidden" style="width: 360px; height: 280px; border-radius: 6px; border: 1px solid #ECECEC80; box-shadow: 0px 1px 8px 0px #0000000A, 0px 24px 24px 0px #0000000F, 0px -6px 30px 0px #0000000F;">
+          <div class="category-card relative overflow-hidden" style="width: 360px; height: 280px; border-radius: 6px;">
             <img 
               src="/images/skin-care.jpg" 
               alt="Skin Care" 
@@ -58,7 +58,7 @@
         <!-- Row 2 -->
         <div class="flex" style="gap: 40px; height: 280px;">
           <!-- Make-Up -->
-          <div class="category-card relative overflow-hidden" style="width: 360px; height: 280px; border-radius: 6px; border: 1px solid #ECECEC80; box-shadow: 0px 1px 8px 0px #0000000A, 0px 24px 24px 0px #0000000F, 0px -6px 30px 0px #0000000F;">
+          <div class="category-card relative overflow-hidden" style="width: 360px; height: 280px; border-radius: 6px;">
             <img 
               src="/images/makeup.jpg" 
               alt="Make-Up" 
@@ -78,7 +78,7 @@
           </div>
 
           <!-- Mother & Baby -->
-          <div class="category-card relative overflow-hidden" style="width: 360px; height: 280px; border-radius: 6px; border: 1px solid #ECECEC80; box-shadow: 0px 1px 8px 0px #0000000A, 0px 24px 24px 0px #0000000F, 0px -6px 30px 0px #0000000F;">
+          <div class="category-card relative overflow-hidden" style="width: 360px; height: 280px; border-radius: 6px;">
             <img 
               src="/images/mother-baby.jpg" 
               alt="Mother & Baby" 
@@ -108,6 +108,19 @@
 <style scoped>
 button:hover {
   background-color: rgba(19, 138, 150, 0.85) !important;
+}
+
+.category-card {
+  border: 1px solid rgba(236, 236, 236, 0.5);
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.category-card:hover {
+  border: 1px solid rgba(236, 236, 236, 0.5);
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.04), 
+              0px 24px 24px 0px rgba(0, 0, 0, 0.06), 
+              0px -6px 30px 0px rgba(0, 0, 0, 0.06);
 }
 
 </style>

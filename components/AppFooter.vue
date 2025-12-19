@@ -50,15 +50,15 @@
           <h3 class="footer-title">CONTACT US</h3>
           <ul class="footer-list">
             <li class="contact-item">
-              <img src="/images/location-icon.png" alt="Location" class="contact-icon" />
+              <img src="~/assets/css/icon/location-icon.png" alt="Location" class="contact-icon" />
               <span>Saray Mah. Site You Cad. Anel İş Merkezi, D:No:5/4, 34768<br>Ümraniye/İstanbul</span>
             </li>
             <li class="contact-item">
-              <img src="/images/phone-icon.png" alt="Phone" class="contact-icon" />
+              <img src="~/assets/css/icon/call-icon.png" alt="Phone" class="contact-icon" />
               <span>0850 755 9967</span>
             </li>
             <li class="contact-item">
-              <img src="/images/email-icon.png" alt="Email" class="contact-icon" />
+              <img src="~/assets/css/icon/email-icon.png" alt="Email" class="contact-icon" />
               <span>info@watsons.com.tr</span>
             </li>
           </ul>
@@ -67,7 +67,7 @@
 
       <!-- Copyright & Social -->
       <div class="footer-bottom">
-        <p class="copyright">© WATSONS 2021 ALL RIGHTS RESERVED | A MEMBER OF CK HUTCHISON HOLDINGS</p>
+        <p class="copyright">© WATSONS 2021 ALL RIGHTS RESERVED &nbsp; | &nbsp; A MEMBER OF CK HUTCHISON HOLDINGS</p>
         <div class="social-icons">
           <a href="#" class="social-link"><img src="/images/facebook.png" alt="Facebook" /></a>
           <a href="#" class="social-link"><img src="/images/twitter.png" alt="Twitter" /></a>
@@ -124,7 +124,7 @@
 
 .footer-section:first-child {
   flex-basis: 185px;
-  margin-left: -11px;
+  margin-left: -1px;
 }
 
 .footer-section:nth-child(2) {
@@ -133,6 +133,8 @@
 
 .footer-section:nth-child(3) {
   flex-basis: 165px;
+  position: relative;
+  left: -11px;
 }
 
 .footer-section:nth-child(4) {
@@ -141,7 +143,7 @@
 
 .footer-section:last-child {
   flex: 0 0 430px;
-  padding-left: 30px;
+  padding-left: 35px;
 }
 
 /* Footer Title */
@@ -180,11 +182,6 @@
 .footer-list a {
   color: #485363;
   text-decoration: none;
-  transition: color 0.2s;
-}
-
-.footer-list a:hover {
-  color: #0099A8;
 }
 
 /* Contact Items */
@@ -197,8 +194,11 @@
 .contact-icon {
   width: 16px;
   height: 16px;
+  opacity: 1;
+  position: relative;
+  top: -1px;
+  left: 0px;
   flex-shrink: 0;
-  margin-top: 0;
 }
 
 /* Footer Bottom */
@@ -220,7 +220,7 @@
   letter-spacing: 0px;
   color: rgba(132, 147, 168, 1);
   margin: 0;
-  margin-left: -12px;
+  margin-left: -1px;
   text-transform: uppercase;
   vertical-align: middle;
 }
@@ -232,7 +232,7 @@
   gap: 24px;
   width: 575px;
   height: 32px;
-  margin-right: 18px;
+  margin-right: 1px;
 }
 
 .social-link img {

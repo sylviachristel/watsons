@@ -59,7 +59,7 @@
   line-height: 16px;
   letter-spacing: 0px;
   vertical-align: middle;
-  color: #8493A8;
+  color: #2A2A4899;
   margin: 0;
   padding: 0; 
 }
@@ -81,12 +81,15 @@
   border-radius: 4px;
   padding: 0 16px;
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 24px;
   color: #2A2A48;
 }
 
 .email-input::placeholder {
   color: #8493A8;
+  opacity: 1;
+  line-height: 24px;
 }
 
 .email-input:focus {
