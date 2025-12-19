@@ -1,75 +1,94 @@
-# Nuxt Minimal Starter
+# 🛍️ Watsons (E-commerce)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Modern, responsive **e-commerce homepage** built with Nuxt.js 3, Vue 3 and Tailwind CSS.  
+This project is developed as a frontend-focused showcase, emphasizing clean UI, component-based architecture and real API integration.
 
-## Setup
+--- 
 
-Make sure to install dependencies:
+## ✨ Features
+- Modern user interface
+- Fully responsive, mobile-first design
+- Real product data fetched from the DummyJSON API
+- Component-based and reusable architecture
+- Loading and error state handling
+- Fast and consistent styling with Tailwind CSS
 
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Nuxt.js 3**
+- **Vue.js 3 (Composition API)**
+- **Tailwind CSS**
+
+### API
+- **DummyJSON**
+
+### Deployment
+- **Vercel**
+
+---
+
+## 📂 Project Structure
+
+```text
+watsons/
+├─ components/        # Reusable UI components
+├─ pages/             # Nuxt pages and routing
+├─ public/            # Static assets (images, icons, etc.)
+├─ assets/            # Global styles and assets
+├─ composables/       # Reusable logic (if any)
+├─ nuxt.config.ts     # Nuxt configuration
+└─ package.json
+```
+## 🚀 Getting Started
+
+Follow the steps below to run the project locally.
+
+### 1️⃣ Clone the Repository
 ```bash
-# npm
+git clone https://github.com/your-username/watsons.git
+cd watsons
+```
+### 2️⃣ Install Dependencies
+```bash
 npm install
-
-# pnpm
+# or
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
+### 3️⃣ Start the Development Server
 ```bash
-# npm
 npm run dev
-
-# pnpm
+# or
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
+The application will be available at:
+```text
+http://localhost:3000
+```
+---
+## 🌐 Deployment (Vercel)
+This project is optimized for deployment on Vercel.
 
-## Production
-
-Build the application for production:
-
+### Step-by-Step Deployment Guide 
+1. Push the project to a GitHub repository
+2. Go to https://vercel.com
+3. Click **New Project** and select your repository
+4. The framework will be automatically detected as **Nuxt.js**
+   
+### Build Settings 
+**Build Command**
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+**Output Directory**
+```text
+.output
 ```
+5. Click **Deploy**
+  🎉 Your project will be live within seconds.
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## 📄 License
+This project is created for portfolio purposes only. 
+All brand names and assets are used for demonstration purposes.
