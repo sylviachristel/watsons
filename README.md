@@ -5,6 +5,12 @@ This project is developed as a frontend-focused showcase, emphasizing clean UI, 
 
 --- 
 
+## 🟢 Live Demo
+https://watsons-delta.vercel.app/
+_Deployed on Vercel with automatic production builds on every push to main._
+
+---
+
 ## ✨ Features
 - Modern user interface
 - Fully responsive, mobile-first design
