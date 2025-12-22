@@ -3,6 +3,10 @@ import type { Config } from 'tailwindcss'
 export default <Partial<Config>>{
     theme: {
         extend: {
+            fontFamily: {
+                roboto: ['Roboto', 'sans-serif'],
+                rubik: ['Rubik', 'sans-serif'],
+            },
             colors: {
                 teal: {
                     200: '#99f2e7',

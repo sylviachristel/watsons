@@ -29,7 +29,7 @@
         <!-- Contact Info (Right Aligned) -->
         <div class="ml-auto flex items-center space-x-2">
            <span style="width: 173px; height: 24px; font-family: 'Roboto'; font-weight: 500; font-size: 14px; line-height: 24px; letter-spacing: 0px; text-align: center; vertical-align: middle; color: #FFFFFF;">Call us:(+90) 850 123 45 67</span>
-           <div class="icon-wrapper header-phone-icon" style="width: 18px; height: 14px; margin-right: 185px;">
+           <div class="icon-wrapper header-phone-icon" style="width: 18px; height: 15px; margin-right: 185px;">
                <img src="~/assets/css/icon/phone-icon.png" alt="Phone" class="w-full h-full object-contain" />
            </div>
         </div>
@@ -83,7 +83,7 @@
         <div class="hidden md:block" style="background-color: #ECECEC; margin-right: -7px; width: 0.5px; height: 24px; opacity: 1;"></div>
 
         <!-- Cart -->
-        <div class="relative cursor-pointer flex items-end justify-center" style="width: 25px; height: 72px; padding-bottom: 10px; margin-top: 12px; margin-right: 15px;">
+        <div class="relative cursor-pointer flex items-end justify-center" style="width: 25px; height: 100px; padding-bottom: 10px; margin-top: 12px; margin-right: 15px;">
            <img src="~/assets/css/icon/cart-icon.png" alt="Cart" class="w-full h-full object-contain" />
         </div>
       </div>
