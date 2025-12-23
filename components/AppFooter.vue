@@ -86,15 +86,16 @@
 <style scoped>
 /* First Container - Outer Footer Container */
 .footer-container {
-  width: 1440px;
-  height: 320px;
-  padding-top: 56px;
-  padding-bottom: 57px;
+  width: 100%;
+  height: auto;
+  padding-top: 48px;
+  padding-bottom: 48px;
   margin: 0 auto;
   background-color: #FFFFFF;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: 1px solid #ECECEC;
 }
 
 /* Second Container - Footer Content */
@@ -103,7 +104,7 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 32px;
 }
 
 /* Footer Links Container */

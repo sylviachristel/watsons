@@ -6,7 +6,8 @@
         <div class="w-full flex flex-col gap-4 checkout-header-align">
           <!-- Breadcrumb -->
           <div class="flex items-center" style="height: 16px; gap: 12px; opacity: 1;">
-            <span class="font-roboto font-normal text-[12px] leading-[16px] text-[#8493A8] tracking-[0px] align-middle">Homepage</span>
+            <!-- Link to homepage-->
+            <NuxtLink to="/" class="font-roboto font-normal text-[12px] leading-[16px] text-[#8493A8] tracking-[0px] align-middle hover:text-[#0099A8] transition-colors">Homepage</NuxtLink>
             <img src="~/assets/css/icon/checkout-icon.png" alt=">" class="w-3 h-3 object-contain opacity-40" />
             <span class="font-roboto font-normal text-[12px] leading-[16px] text-[#8493A8] tracking-[0px] align-middle">Shopping Cart</span>
             <img src="~/assets/css/icon/checkout-icon.png" alt=">" class="w-3 h-3 object-contain opacity-40" />
@@ -25,6 +26,13 @@
           <!-- Left Column: Shipping Details -->
           <div class="lg:col-span-2 relative left-[30px]">
               <ShippingDetails />
+
+              <div class="relative -mt-4">
+                  <PaymentDetails />
+              </div>
+              <button class="w-[360px] h-[32px] mt-2 mb-2 relative z-10 bg-[#FF27AD] rounded-[4px] font-roboto font-bold text-[14px] leading-[16px] text-white tracking-[0px] hover:opacity-90 transition-opacity">
+                  PAY NOW
+              </button>
           </div>
 
           <!-- Right Column: Cart Summary -->
@@ -39,6 +47,7 @@
 <script setup>
 import ShippingDetails from '~/components/checkout/ShippingDetails.vue'
 import CartSummary from '~/components/checkout/CartSummary.vue'
+import PaymentDetails from '~/components/checkout/PaymentDetails.vue'
 </script>
 
 <style scoped>

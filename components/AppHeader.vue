@@ -37,7 +37,7 @@
     </div>
 
     <!-- Middle Section -->
-    <div class="container mx-auto px-4 pt-0 pb-1 flex md:flex-nowrap justify-start items-center gap-4">
+    <div class="container mx-auto px-4 pt-4 pb-3 flex md:flex-nowrap justify-start items-center gap-4">
       <!-- Logo -->
       <div class="logo flex-shrink-0 header-logo"> 
          <img src="~/assets/css/icon/logo.png" alt="Watsons" class="h-7 w-auto" />
@@ -83,7 +83,7 @@
         <div class="hidden md:block" style="background-color: #ECECEC; margin-right: -7px; width: 0.5px; height: 24px; opacity: 1;"></div>
 
         <!-- Cart -->
-        <div class="relative cursor-pointer flex items-end justify-center" style="width: 25px; height: 100px; padding-bottom: 10px; margin-top: 12px; margin-right: 15px;">
+        <div class="relative cursor-pointer flex items-center justify-center" style="width: 24px; height: 62px; margin-right: 15px;">
            <img src="~/assets/css/icon/cart-icon.png" alt="Cart" class="w-full h-full object-contain" />
         </div>
       </div>
