@@ -1,12 +1,19 @@
 # 🛍️ Watsons (E-commerce)
 
 Modern, responsive **e-commerce homepage** built with Nuxt.js 3, Vue 3 and Tailwind CSS.  
-This project is developed as a frontend-focused showcase, emphasizing clean UI, component-based architecture and real API integration.
+This project is developed as a frontend-focused showcase, emphasizing clean UI, scalable component-based architecture and real API integration.
+In addition to the homepage, a complete **checkout page** has been implemented to demonstrate multi-page structure and component composition.
 
 --- 
 
 ## 🟢 Live Demo
+
+**Homepage:**
 https://watsons-delta.vercel.app/
+
+**Checkout Page:**
+https://watsons-delta.vercel.app/checkout
+
 _Deployed on Vercel with automatic production builds on every push to main._
 
 ---
@@ -16,6 +23,7 @@ _Deployed on Vercel with automatic production builds on every push to main._
 - Fully responsive, mobile-first design
 - Real product data fetched from the DummyJSON API
 - Component-based and reusable architecture
+- Dedicated checkout page with modular structure
 - Loading and error state handling
 - Fast and consistent styling with Tailwind CSS
 
